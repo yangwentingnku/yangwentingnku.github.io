@@ -2,18 +2,18 @@ header:
   - name: Home
     title: Home Page
     url: /
+  - name: Research
+    title: Research Page
+    url: /research/
+  - name: Projects
+    title: Projects Page
+    url: /projects/
+  - name: Teaching
+    title: Teaching Page
+    url: /teaching/
   - name: About
     title: About Blogophonic
     url: /about/
-  - name: Blog
-    title: Blog
-    url: /blog/
-  - name: Contact
-    title: Contact Form
-    url: /contact/
-  - name: Elements
-    title: Element Page
-    url: /elements/
 
 footer:
   - name: Help
