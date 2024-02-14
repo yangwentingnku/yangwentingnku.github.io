@@ -30,7 +30,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          hugo-version: '0.119.0'
+          hugo-version: '0.122.0'
           extended: true
           PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}  # 你的个人访问令牌
           EXTERNAL_REPOSITORY: yangwentingnku/yangwentingnku.github.io  # 你的GitHub Pages仓库
