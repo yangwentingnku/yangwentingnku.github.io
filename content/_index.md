@@ -1,7 +1,7 @@
 ---
 title: "YANG Wenting | 杨文婷"
 subtitle: "Ph.D. in public administration"
-description: "Hi, welcome to my site. I am a faculty member of the [Zhou Enlai School of Government](https://zsg.nankai.edu.cn/)), Nankai University. My official website is [here](https://yangwentingnku.github.io/).
+description: "Hi, welcome to my site. I am a faculty member of the [Zhou Enlai School of Government](https://zsg.nankai.edu.cn/), Nankai University. My official website is [here](https://yangwentingnku.github.io/).
 
 My research interests include **government transparency, digital governance, and coproduction**.
 
