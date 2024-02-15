@@ -1,18 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Blogophonic</title>
+    <title>Tags on Yang Wenting</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Blogophonic</description>
+    <description>Recent content in Tags on Yang Wenting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>hugo-site</title>
-      <link>/tags/hugo-site/</link>
-      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/hugo-site/</guid>
+      <title>contact</title>
+      <link>/tags/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>project</title>
+      <link>/tags/project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>research</title>
+      <link>/tags/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>teaching</title>
+      <link>/tags/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/teaching/</guid>
       <description></description>
     </item>
   </channel>

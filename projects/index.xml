@@ -1,33 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Projects That&#39;s Real on Blogophonic</title>
+    <title>Projects on Yang Wenting</title>
     <link>/projects/</link>
-    <description>Recent content in The Projects That&#39;s Real on Blogophonic</description>
+    <description>Recent content in Projects on Yang Wenting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tachyons for Style</title>
-      <link>/projects/tachyons-for-style/</link>
-      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/projects/tachyons-for-style/</guid>
-      <description>Tachyons is a design system that allows you to design gorgeous interfaces in the browser with little effort. Because Speed Building this static site generator theme was the first time I used an Atomic (or Functional) CSS system like Tachyons. It&amp;rsquo;s a design system that provides very small (which means fast) CSS modules that you can use in your HTML. So, rather than writing every line of CSS, you apply the style you need as you write your HTML with easy to understand shorthand class names.</description>
-    </item>
-    <item>
-      <title>CSS Grid Scaffold</title>
-      <link>/projects/css-grid-scaffold/</link>
-      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/projects/css-grid-scaffold/</guid>
-      <description>“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.” — Chris House, A Complete Guide to CSS Grid Layout 1&#xA;Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid TABLE.</description>
-    </item>
-    <item>
-      <title>Built-in Contact Form</title>
-      <link>/projects/built-in-contact-form/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/projects/built-in-contact-form/</guid>
-      <description>Formspree makes it easy to receive submissions from HTML forms on your static website. Functional Form This theme has a form-to-email feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form (/content/forms/contact.md). Of course, the example shown below (your@email.here) must not be used. Please use your actual email address.</description>
+      <title>Projects</title>
+      <link>/projects/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/projects/projects/</guid>
+      <description> Mechanisms and Paths of Government Information Intervention for Promoting Citizen Coproduction: A Study Based on Digital Governance Platform，72304155, 2024/01-2026/12 Natural Science Foundation of China (Youth Project) Host Research on Mechanisms of Government Information Disclosure in Digital Transformation, TJGLQN22-002, 2022/12-2023/12 Tianjin Municipal Philosophy and Social Science Planning (Youth Project) Host Research on the Impact of Institutional Pressures on Government Transparency, 63232144, 2022/12-2023/12 Fundamental Research Funds for the Central Universities Host Research on Cross-Organizational and Cross-Departmental Collaboration Mechanisms for Complex Public Affairs，72134005，2022/01-2026/12 Natural Science Foundation of China (Key Project)&#x9;Participant Research on the Capability of Data Governance for Government Departments in Digital Transformation，72104203，2022/01-2024/12 Natural Science Foundation of China (Youth Project) Participant Research on Quality and Safety Governance of Agricultural Products Based on Big Data Analysis，71974128，2020/01-2023/12 Natural Science Foundation of China (General Project) Participant Research on Risk Governance of Major Public Affairs Decision Based on Big Data Analysis，19JZD022，2019/08-2022/12 Key Philosophy and Social Science Research Project of Ministry of Education of the People&#39;s Republic of China Participant Statistical Study on the Temporal and Spatial Patterns of Major Disasters and the Allocation of Disaster Recovery Resources，14ZDB152，2015/01-2018/02 Natural Social Science Foundation of China (Major Project) Participant Research on Emergency Rescue Resource Reserve Based on Spatial Classification Mining，71371122，2014/01-2017/12 Natural Science Foundation of China (General Project) Participant </description>
     </item>
   </channel>
 </rss>
