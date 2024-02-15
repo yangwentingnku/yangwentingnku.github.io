@@ -4,16 +4,16 @@ header:
     url: /
   - name: Research
     title: Research Page
-    url: /research/
+    url: /research/researches
   - name: Projects
     title: Projects Page
-    url: /projects/
+    url: /projects/projects
   - name: Teaching
     title: Teaching Page
-    url: /teaching/
-  - name: About
-    title: About Blogophonic
-    url: /about/
+    url: /teaching/teaching
+  - name: Contact
+    title: Contact me
+    url: /contacts
 
 footer:
   - name: Help
