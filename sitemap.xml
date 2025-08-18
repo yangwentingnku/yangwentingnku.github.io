@@ -7,21 +7,19 @@
   </url><url>
     <loc>/categories/</loc>
   </url><url>
-    <loc>/tags/contact/</loc>
-  </url><url>
     <loc>/categories/contact/</loc>
   </url><url>
     <loc>/contacts/</loc>
   </url><url>
-    <loc>/tags/project/</loc>
+    <loc>/tags/contact/</loc>
   </url><url>
     <loc>/categories/project/</loc>
+  </url><url>
+    <loc>/tags/project/</loc>
   </url><url>
     <loc>/projects/</loc>
   </url><url>
     <loc>/projects/projects/</loc>
-  </url><url>
-    <loc>/tags/research/</loc>
   </url><url>
     <loc>/categories/research/</loc>
   </url><url>
@@ -29,13 +27,15 @@
   </url><url>
     <loc>/research/researches/</loc>
   </url><url>
+    <loc>/tags/research/</loc>
+  </url><url>
     <loc>/series/</loc>
   </url><url>
     <loc>/tags/</loc>
   </url><url>
-    <loc>/tags/teaching/</loc>
-  </url><url>
     <loc>/categories/teaching/</loc>
+  </url><url>
+    <loc>/tags/teaching/</loc>
   </url><url>
     <loc>/teaching/</loc>
   </url><url>
