@@ -1,11 +1,13 @@
 ---
 title: "YANG Wenting | 杨文婷"
 subtitle: "Ph.D. in Public Administration"
-description: "Hi, welcome to my site. I am a faculty member of the [Zhou Enlai School of Government](https://zsg.nankai.edu.cn/), [Nankai University](https://en.nankai.edu.cn/). My official website is here.
+description: |
+  Welcome! I am a Lecturer in the Department of Public Administration at the [Zhou Enlai School of Government](https://zsg.nankai.edu.cn/), [Nankai University](https://en.nankai.edu.cn/).
 
-My research interests include **digital governance and citizen-government interaction, bureaucratic responsiveness, and government transparency**. 
+  My research focuses on digital governance and citizen-government interaction, bureaucratic responsiveness, and government transparency.
 
-I obtained my Ph.D. in public administration at the [School of International and Public Affairs](https://en.sipa.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). I am extraordinarily honored and grateful to have Professor Bo Fan as my adviser. He had been a pillar of support and guidance in my academic journey."
+  I received my Ph.D. in Public Administration from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) in 2022, where I was advised by Professor Bo Fan. I also earned my master's degree at Shanghai Jiao Tong University and my bachelor's degree at Nankai University. From September 2019 to September 2020, I was a visiting scholar at the Ash Center, Harvard Kennedy School.
+
 date: 2019-02-18T12:27:33-06:00
 images:
   - img/ywt.jpg
