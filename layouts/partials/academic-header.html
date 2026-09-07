@@ -1,0 +1,10 @@
+<header class="home-banner" role="banner">
+  <h1><a href="/">Wenting Yang <span lang="zh">杨文婷</span></a></h1>
+  <nav class="home-nav" aria-label="Main navigation">
+    <a href="/">Home</a>
+    <a href="/research/researches/"{{ if eq .Title "Research" }} aria-current="page"{{ end }}>Research</a>
+    <a href="/projects/projects/"{{ if eq .Title "Projects" }} aria-current="page"{{ end }}>Projects</a>
+    <a href="/teaching/teaching/"{{ if eq .Title "Teaching" }} aria-current="page"{{ end }}>Teaching</a>
+    <a href="/contacts/"{{ if eq .Title "Contact" }} aria-current="page"{{ end }}>Contact</a>
+  </nav>
+</header>
