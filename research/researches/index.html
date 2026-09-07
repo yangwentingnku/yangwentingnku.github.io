@@ -13,68 +13,90 @@
   <link rel="stylesheet" href="/style.main.min.1306e0327c2e897dcaa3a695d57a6cf069582805e21caf8e17bcdb0613f4b7a3.css" integrity="sha256-EwbgMnwuiX3Ko6aV1Xps8GlYKAXiHK&#43;OF7zbBhP0t6M=" media="screen">
 </head>
 <body>
-      <div class="grid-container single"><header class="site-header pa4 bb b--transparent" role="banner">
-  <nav class="site-nav db dt-l w-100" role="nav">
-    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="/" title="Home">
-      <img src="/img/nk.png" style="height: 5rem;" class="dib db-l w-auto" alt="Yang Wenting">
-    </a>
-    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l">
-      
-      <a class="link f4  f4-l dib pv1 ph2" href="/" title="Home Page">Home</a>
-      
-      <a class="link f4  f4-l dib pv1 ph2" href="/research/researches" title="Research Page">Research</a>
-      
-      <a class="link f4  f4-l dib pv1 ph2" href="/projects/projects" title="Projects Page">Projects</a>
-      
-      <a class="link f4  f4-l dib pv1 ph2" href="/teaching/teaching" title="Teaching Page">Teaching</a>
-      
-      <a class="link f4  f4-l dib pv1 ph2" href="/contacts" title="Contact me">Contact</a>
-      
-      
-    </div>
+      <div class="grid-container single">
+<style>
+@font-face { font-family: "Karla"; src: url("/fonts/Karla.ttf") format("truetype"); font-style: normal; font-weight: 200 800; font-display: swap; }
+  .home-banner { background: linear-gradient(rgba(0,0,0,.56), rgba(0,0,0,.56)), url("/img/nankai-school-banner.png") center center / cover; color: #fff; padding: 48px 24px 0; }
+  .home-banner h1 { margin: 0 0 48px; color: inherit; font-family: inherit; font-size: 46px; font-weight: 400; line-height: 1.5; text-align: center; letter-spacing: 0; }
+  .home-banner h1 a { color: inherit; text-decoration: none; }
+  .home-banner h1 span { font-size: .75em; margin-left: 12px; white-space: nowrap; }
+  .home-nav { display: flex; max-width: 896px; margin: 0 auto; }
+  .home-nav a { flex: 1; padding: 9px 8px 10px; line-height: 24px; text-align: center; color: #fff; font-size: 16px; text-decoration: none; border-bottom: 3px solid transparent; }
+  .home-nav a:hover, .home-nav a[aria-current="page"] { color: #a8beff; border-bottom-color: #8caaff; }
+  .home-banner a:focus-visible, .academic-home a:focus-visible { outline: 2px solid #8caaff; outline-offset: 5px; }
+.grid-container.single { display: block; max-width: none; min-height: 100vh; background: #fafafa; color: #292929; font: 16px/1.75 "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+.academic-inner { max-width: 896px; padding: 32px 24px 48px; margin: 0 auto; min-height: calc(100vh - 300px); }
+.academic-inner h2, .academic-inner h3 { font-family: inherit; color: inherit; }
+.academic-inner h2 { font-size: 20px; line-height: 1.4; margin: 32px 0 16px; }
+.academic-inner .page-title { margin: 0 0 24px; }
+.academic-inner h3 { font-size: 16px; line-height: 1.5; margin: 0 0 8px; font-weight: 700; }
+.academic-inner a { color: #244fc2; text-decoration: none; overflow-wrap: anywhere; }
+.academic-inner a:hover { text-decoration: underline; }
+.academic-inner a:focus-visible { outline: 2px solid #244fc2; outline-offset: 3px; }
+.academic-inner p { margin: 0 0 16px; }
+.research-c2 .list-item, .publication, .project-record, .course-record { padding: 18px 0; border-bottom: 1px solid #d0d0d0; margin: 0; }
+.research-c2 { margin: 0 0 28px; }
+.publication { position: relative; padding-right: 60px; }
+.publication .pub-meta { color: #747474; font-size: 14px; font-style: italic; margin-bottom: 3px; }
+.publication .pub-authors { margin: 0; }
+.publication .pub-index { color: #747474; font-size: 13px; margin: 5px 0 0; }
+.publication .pub-doi { position: absolute; right: 0; top: 18px; border: 1px solid #244fc2; border-radius: 5px; padding: 2px 8px; font-size: 12px; line-height: 20px; }
+.publication .pub-doi:hover { background: #edf1fc; text-decoration: none; }
+.page-note { color: #707070; font-size: 14px; }
+.project-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; color: #747474; font-size: 14px; }
+.project-meta p { margin: 0; }
+.course-record .course-org { color: #747474; font-size: 14px; margin-bottom: 3px; }
+.course-record p { margin-bottom: 3px; }
+.contact-details { margin: 0; }
+.contact-details > div { display: grid; grid-template-columns: 85px minmax(0,1fr); gap: 16px; padding: 18px 0; border-bottom: 1px solid #d0d0d0; }
+.contact-details dt { font-weight: 700; }
+.contact-details dd { margin: 0; overflow-wrap: anywhere; }
+.contact-map { display: block; max-width: 100%; height: auto; margin-top: 28px; }
+.academic-inner-footer { max-width: 848px; margin: 0 auto; padding: 14px 24px 24px; color: #777; font-size: 14px; text-align: center; }
+@media (max-width: 680px) {
+.home-banner { padding: 32px 16px 0; }
+.home-banner h1 { font-size: 30px; margin-bottom: 27px; }
+.home-banner h1 span { margin-left: 5px; }
+.home-nav { flex-wrap: wrap; }
+.home-nav a { flex: 0 0 33.333%; padding: 12px 4px; font-size: 14px; }
+.academic-inner { padding: 28px 24px 36px; }
+.publication { padding-right: 0; }
+.publication .pub-doi { position: static; display: inline-block; margin-top: 10px; }
+.contact-details > div { grid-template-columns: 1fr; gap: 3px; }
+}
+</style>
+
+<header class="home-banner" role="banner">
+  <h1><a href="/">Wenting Yang <span lang="zh">杨文婷</span></a></h1>
+  <nav class="home-nav" aria-label="Main navigation">
+    <a href="/">Home</a>
+    <a href="/research/researches/" aria-current="page">Research</a>
+    <a href="/projects/projects/">Projects</a>
+    <a href="/teaching/teaching/">Teaching</a>
+    <a href="/contacts/">Contact</a>
   </nav>
 </header>
 
-<main class="page-main pa4" role="main">
-  <section class="page-content mw7 center">
-    <article class="post-content pa0 ph4-l">
-      <header class="post-header">
-        <h1 class="f1 lh-solid measure-narrow mb3">Research</h1>
-        
-        
-        
-      </header>
-      <section class="post-body pt5 pb4">
-        <style type="text/css">
-    .research-c2 .list-item{
-        margin: 2rem 0;
-        overflow-wrap: anywhere;
-    }
-    .research-c2 {
-        margin: 1.5rem 0;
-    }
-    .research-t2 {
-        font-size: 1.5rem;
-        color: #103742;
-        margin: 0.8em 0;
-    }
-</style>
+
+<main class="academic-inner" id="main-content">
+  <h2 class="page-title">Research</h2>
+  
 <h2 class="research-t2">Research Interests</h2>
 <div class="research-c2">Digital governance and citizen-government interaction, bureaucratic responsiveness, government transparency</div>
-<p>Updated from the August 2026 CV. * indicates corresponding author. Journal metrics are reported as listed in the CV.</p>
+<p class="page-note">Updated from the August 2026 CV. * indicates corresponding author. Journal metrics are reported as listed in the CV.</p>
 <h2 class="research-t2">Refereed Journal Articles (in English)</h2>
 <div class="research-c2">
     <div class="list-wrap">
-        <div class="list-item">Yang, Wenting* (2026). Institutional Pressures and Bureaucratic Responsiveness: Why Do Public Agencies Respond to Freedom of Information Requests? Public Administration Review, 86(2), 354–370. <a href="https://doi.org/10.1111/puar.70013">https://doi.org/10.1111/puar.70013</a> (SSCI, Q1, IF=4.9)</div>
-        <div class="list-item">Liu, Yao and Wenting Yang*. (2026). Interagency Collaboration, Broker Organization, And Bureaucratic Responsiveness: How Public Agencies Fix Complex Citizen Requests on Digital Government Platforms? Public Management Review, 1–25. <a href="https://doi.org/10.1080/14719037.2026.2696532">https://doi.org/10.1080/14719037.2026.2696532</a> (SSCI, Q1, IF=5.898)</div>
-        <div class="list-item">Yang, Wenting, Yupan Zhao, and Taiting Pan*. 2026. Role Clarification and Organizational Performance in a Multi-Goal Context: Evidence From Water Quality Management in China. Review of Policy Research 43(5): 1-14. <a href="https://doi.org/10.1111/ropr.70124">https://doi.org/10.1111/ropr.70124</a> (SSCI, Q1, IF=4.4)</div>
-        <div class="list-item">Pan, Taiting, Li Wang, and Wenting Yang*. (2026). Carrots or Sticks: How Regulatory Instruments Within Public Organizations Shape E-Government Performance? Public Performance &amp; Management Review, 1–31. <a href="https://doi.org/10.1080/15309576.2026.2695726">https://doi.org/10.1080/15309576.2026.2695726</a> (SSCI, Q1, IF=3.9)</div>
-        <div class="list-item">Yang, Wenting* and Bo Fan. (2025). How Agency Resources Matter to Government Reactive Transparency: Evidence from Freedom of Information Requests in China. International Public Management Journal, 28(4), 561-579. <a href="https://doi.org/10.1080/10967494.2024.2423954">https://doi.org/10.1080/10967494.2024.2423954</a> (SSCI, Q1, IF=3.0)</div>
-        <div class="list-item">Zhao, Yupan*, Qiong Wu, Wenting Yang, Xiao Han, Lixiang Men, Ruoxuan Liu, Chunhua He, and Yuhui Guo. (2025). The Impact of the National Big Data Comprehensive Pilot Zone on Digital Economy Development: Evidence from China. Information Technology for Development, 31(4): 1297-1317. <a href="https://doi.org/10.1080/02681102.2025.2475129">https://doi.org/10.1080/02681102.2025.2475129</a> (SSCI, Q2, IF=3.7)</div>
-        <div class="list-item">Yang, Wenting, Chuanshen Qin, and Bo Fan*. (2023). Do Institutional Pressures Increase Reactive Transparency of Government? Evidence from a Field Experiment. Public Management Review, 25(11): 2073-2092. <a href="https://doi.org/10.1080/14719037.2022.2058597">https://doi.org/10.1080/14719037.2022.2058597</a> (SSCI, Q1, IF=5.898)</div>
-        <div class="list-item">Yang, Wenting, Bo Fan*, and Kevin C. Desouza. (2019). Spatial-Temporal Effect of Household Solid Waste on Illegal Dumping. Journal of Cleaner Production, 227: 313-324. <a href="https://doi.org/10.1016/j.jclepro.2019.04.173">https://doi.org/10.1016/j.jclepro.2019.04.173</a> (SSCI, Q1, IF=9.297)</div>
-        <div class="list-item">Fan, Bo*, Wenting Yang, and Xingchen Shen. (2019). A Comparison Study of ‘motivation–intention–behavior’ Model on Household Solid Waste Sorting in China and Singapore. Journal of Cleaner Production, 211: 442-454. <a href="https://doi.org/10.1016/j.jclepro.2018.11.168">https://doi.org/10.1016/j.jclepro.2018.11.168</a> (SSCI, Q1, IF=9.297)</div>
-        <div class="list-item">Fan, Bo, Wenting Yang, and Ting Han*. (2018). Impact of Basic Public Service Level on Pro-Environmental Behavior in China. International Sociology, 33(6): 738-760. <a href="https://doi.org/10.1177/0268580918792778">https://doi.org/10.1177/0268580918792778</a> (SSCI, IF=1.52)</div>
+        <article class="publication"><p class="pub-meta">Public Administration Review, 2026 · 86(2), 354–370</p><h3>Institutional Pressures and Bureaucratic Responsiveness: Why Do Public Agencies Respond to Freedom of Information Requests?</h3><p class="pub-authors">Yang, Wenting*</p><p class="pub-index">(SSCI, Q1, IF=4.9)</p><a class="pub-doi" href="https://doi.org/10.1111/puar.70013" aria-label="DOI: Institutional Pressures and Bureaucratic Responsiveness: Why Do Public Agencies Respond to Freedom of Information Requests?">DOI</a></article>
+        <article class="publication"><p class="pub-meta">Public Management Review, 2026 · 1–25</p><h3>Interagency Collaboration, Broker Organization, And Bureaucratic Responsiveness: How Public Agencies Fix Complex Citizen Requests on Digital Government Platforms?</h3><p class="pub-authors">Liu, Yao and Wenting Yang*</p><p class="pub-index">(SSCI, Q1, IF=5.898)</p><a class="pub-doi" href="https://doi.org/10.1080/14719037.2026.2696532" aria-label="DOI: Interagency Collaboration, Broker Organization, And Bureaucratic Responsiveness: How Public Agencies Fix Complex Citizen Requests on Digital Government Platforms?">DOI</a></article>
+        <article class="publication"><p class="pub-meta">Review of Policy Research, 2026 · 43(5): 1-14</p><h3>Role Clarification and Organizational Performance in a Multi-Goal Context: Evidence From Water Quality Management in China</h3><p class="pub-authors">Yang, Wenting, Yupan Zhao, and Taiting Pan*</p><p class="pub-index">(SSCI, Q1, IF=4.4)</p><a class="pub-doi" href="https://doi.org/10.1111/ropr.70124" aria-label="DOI: Role Clarification and Organizational Performance in a Multi-Goal Context: Evidence From Water Quality Management in China">DOI</a></article>
+        <article class="publication"><p class="pub-meta">Public Performance &amp; Management Review, 2026 · 1–31</p><h3>Carrots or Sticks: How Regulatory Instruments Within Public Organizations Shape E-Government Performance?</h3><p class="pub-authors">Pan, Taiting, Li Wang, and Wenting Yang*</p><p class="pub-index">(SSCI, Q1, IF=3.9)</p><a class="pub-doi" href="https://doi.org/10.1080/15309576.2026.2695726" aria-label="DOI: Carrots or Sticks: How Regulatory Instruments Within Public Organizations Shape E-Government Performance?">DOI</a></article>
+        <article class="publication"><p class="pub-meta">International Public Management Journal, 2025 · 28(4), 561-579</p><h3>How Agency Resources Matter to Government Reactive Transparency: Evidence from Freedom of Information Requests in China</h3><p class="pub-authors">Yang, Wenting* and Bo Fan</p><p class="pub-index">(SSCI, Q1, IF=3.0)</p><a class="pub-doi" href="https://doi.org/10.1080/10967494.2024.2423954" aria-label="DOI: How Agency Resources Matter to Government Reactive Transparency: Evidence from Freedom of Information Requests in China">DOI</a></article>
+        <article class="publication"><p class="pub-meta">Information Technology for Development, 2025 · 31(4): 1297-1317</p><h3>The Impact of the National Big Data Comprehensive Pilot Zone on Digital Economy Development: Evidence from China</h3><p class="pub-authors">Zhao, Yupan*, Qiong Wu, Wenting Yang, Xiao Han, Lixiang Men, Ruoxuan Liu, Chunhua He, and Yuhui Guo</p><p class="pub-index">(SSCI, Q2, IF=3.7)</p><a class="pub-doi" href="https://doi.org/10.1080/02681102.2025.2475129" aria-label="DOI: The Impact of the National Big Data Comprehensive Pilot Zone on Digital Economy Development: Evidence from China">DOI</a></article>
+        <article class="publication"><p class="pub-meta">Public Management Review, 2023 · 25(11): 2073-2092</p><h3>Do Institutional Pressures Increase Reactive Transparency of Government? Evidence from a Field Experiment</h3><p class="pub-authors">Yang, Wenting, Chuanshen Qin, and Bo Fan*</p><p class="pub-index">(SSCI, Q1, IF=5.898)</p><a class="pub-doi" href="https://doi.org/10.1080/14719037.2022.2058597" aria-label="DOI: Do Institutional Pressures Increase Reactive Transparency of Government? Evidence from a Field Experiment">DOI</a></article>
+        <article class="publication"><p class="pub-meta">Journal of Cleaner Production, 2019 · 227: 313-324</p><h3>Spatial-Temporal Effect of Household Solid Waste on Illegal Dumping</h3><p class="pub-authors">Yang, Wenting, Bo Fan*, and Kevin C. Desouza</p><p class="pub-index">(SSCI, Q1, IF=9.297)</p><a class="pub-doi" href="https://doi.org/10.1016/j.jclepro.2019.04.173" aria-label="DOI: Spatial-Temporal Effect of Household Solid Waste on Illegal Dumping">DOI</a></article>
+        <article class="publication"><p class="pub-meta">Journal of Cleaner Production, 2019 · 211: 442-454</p><h3>A Comparison Study of ‘motivation–intention–behavior’ Model on Household Solid Waste Sorting in China and Singapore</h3><p class="pub-authors">Fan, Bo*, Wenting Yang, and Xingchen Shen</p><p class="pub-index">(SSCI, Q1, IF=9.297)</p><a class="pub-doi" href="https://doi.org/10.1016/j.jclepro.2018.11.168" aria-label="DOI: A Comparison Study of ‘motivation–intention–behavior’ Model on Household Solid Waste Sorting in China and Singapore">DOI</a></article>
+        <article class="publication"><p class="pub-meta">International Sociology, 2018 · 33(6): 738-760</p><h3>Impact of Basic Public Service Level on Pro-Environmental Behavior in China</h3><p class="pub-authors">Fan, Bo, Wenting Yang, and Ting Han*</p><p class="pub-index">(SSCI, IF=1.52)</p><a class="pub-doi" href="https://doi.org/10.1177/0268580918792778" aria-label="DOI: Impact of Basic Public Service Level on Pro-Environmental Behavior in China">DOI</a></article>
     </div>
 </div>
 <h2 class="research-t2">Refereed Journal Articles (in Chinese)</h2>
@@ -119,23 +141,9 @@
     </div>
 </div>
 
-        
-        
-      </section>
-      <footer class="post-footer">
-        
-      </footer>
-    </article>
-    
-  </section>
 </main>
-<footer class="site-footer pa4 bt b--transparent" role="contentinfo">
-  <nav class="db dt-l w-100">
-    
-    
-    
-  </nav>
-</footer>
+
+<footer class="academic-inner-footer">&copy; 2026 Wenting Yang · 杨文婷</footer>
 
       </div>
     </body>
